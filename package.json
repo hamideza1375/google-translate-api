@@ -1,0 +1,29 @@
+{
+  "name": "deepspeech-nodejs_wav",
+  "version": "1.0.0",
+  "description": "Simple audio processing",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx node@14.0.0 ./index.js"
+  },
+  "dependencies": {
+    "@google-cloud/text-to-speech": "^4.2.2",
+    "@vitalets/google-translate-api": "^9.2.0",
+    "app-root-path": "^3.1.0",
+    "argparse": "^1.0.10",
+    "child_process": "^1.0.2",
+    "deepspeech": "0.9.3",
+    "ffmpeg-static": "^5.1.0",
+    "google-tts-api": "^2.0.2",
+    "install": "^0.13.0",
+    "lodash": "^4.17.21",
+    "node-fetch": "^3.3.1",
+    "node-wav": "0.0.2",
+    "npm": "^9.7.2",
+    "sox-stream": "^2.0.3",
+    "text-to-speech-js": "^1.1.10",
+    "tts": "^0.1.0",
+    "util": "^0.11.1"
+  },
+  "license": "Public domain"
+}
